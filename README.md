@@ -10,4 +10,4 @@ Ao criar aplicações mobile, uma das principais funcionalidades que o desenvolv
 
  Precisei implementar notificações remotas na minha ultima aplicação iOS e sinto que provavelmente precisar reler esse post para refrescar a memória. Nosso foco será apenas em Notificações remotas, pois estou preparando outro post exclusivamente sobre notificações locais.
 
- Mais detalhes em [meu blog](http://www.bpaulino.com.br/)
+ Mais detalhes em [meu blog](http://www.bpaulino.com.br/post/125856122726/ios-8-push-notifications-com-rails-backend-e-swift)
