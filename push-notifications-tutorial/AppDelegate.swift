@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    // Register for push notifications
+    let notificationTypes: UIUserNotificationType = .Badge | .Sound | .Alert
+    let notificationSettings = UIUserNotificationSettings(forTypes: notificationTypes, categories: nil)
+    UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
+    // Ask user permission
+    UIApplication.sharedApplication().registerForRemoteNotifications()
+    
     return true
   }
 
